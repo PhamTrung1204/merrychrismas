@@ -18,7 +18,7 @@
 body {
   animation: fadeInZoom 1.5s ease-in-out;
   margin: 0;
-  font-family: "Arial", sans-serif;
+  font-family: "Noto Sans", "Arial Unicode MS", "Arial", sans-serif;
   background: linear-gradient(to bottom, #003366, #4b9cd3, #ffdb58, #ff704d);
   color: white;
   text-align: center;
