@@ -128,10 +128,3 @@ treeImage.addEventListener("click", () => {
 closeModal.addEventListener("click", () => {
   modal.style.display = "none";
 });
-
-// Tự động kích hoạt sau 5 giây nếu không có tương tác
-setTimeout(() => {
-  if (!isUserClicked) {
-    playWish();
-  }
-}, 4000);
