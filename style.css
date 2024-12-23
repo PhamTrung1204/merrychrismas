@@ -199,7 +199,7 @@ button:hover {
   }
 
   header p {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
   }
 
   .tree img {
@@ -218,7 +218,7 @@ button:hover {
   }
 
   header p {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 
   .tree img {
@@ -236,31 +236,39 @@ button:hover {
   }
 }
 
-@media (max-width: 480px) {
+/* Phong cách responsive */
+@media (max-width: 400px) {
   body {
     padding: 0 10px;
   }
 
   header h1 {
-    font-size: 2rem;
+    font-size: 1.5rem; /* Giảm kích thước chữ */
+    white-space: nowrap; /* Đảm bảo không rớt dòng */
   }
 
   header p {
-    font-size: 1rem;
+    font-size: 0.8rem; /* Giảm kích thước chữ */
+    line-height: 1.2; /* Giảm khoảng cách dòng */
   }
 
   .tree img {
-    width: 150px;
+    width: 180px; /* Giảm kích thước ảnh */
   }
 
-  button {
-    width: 60px;
-    height: 60px;
+  footer p {
+    font-size: 0.7rem; /* Giảm kích thước chữ */
   }
 
   .santa {
-    font-size: 1.8rem;
-    top: 40%;
+    font-size: 1.5rem; /* Giảm kích thước chữ */
+    margin-top: 10px;
+    white-space: nowrap; /* Đảm bảo không rớt dòng */
+  }
+
+  button {
+    width: 50px; /* Giảm kích thước nút */
+    height: 50px;
   }
 }
 
