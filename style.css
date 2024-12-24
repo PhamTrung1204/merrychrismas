@@ -356,7 +356,7 @@ canvas {
 .pulse {
   display: inline-block;
   margin-top: 10px;
-  font-size: 2rem;
+  font-size: 3vw;
   animation: pulseEffect 1.5s infinite;
   color: #fff;
   text-shadow: 0 0 5px #66cfff, 0 0 10px #66cfff, 0 0 20px #66cfff;
