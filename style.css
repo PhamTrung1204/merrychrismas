@@ -352,3 +352,49 @@ canvas {
     transform: translateY(100vh);
   }
 }
+/* Hiệu ứng nhấp nháy */
+.pulse {
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 2rem;
+  animation: pulseEffect 1.5s infinite;
+  color: #fff;
+  text-shadow: 0 0 5px #66cfff, 0 0 10px #66cfff, 0 0 20px #66cfff;
+}
+
+@keyframes pulseEffect {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.2);
+    opacity: 0.8;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+/* Hiệu ứng phát sáng cho dòng chữ sau khi thay đổi */
+#guide-text {
+  transition: all 0.3s ease-in-out;
+}
+
+#guide-text.glow {
+  color: white; /* Màu vàng ánh kim */
+  text-shadow: 0 0 10px #66cfff, 0 0 20px #66cfff, 0 0 30px #66cfff;
+  animation: glowEffect 1.5s infinite;
+}
+
+@keyframes glowEffect {
+  0% {
+    text-shadow: 0 0 5px #66cfff, 0 0 10px #66cfff;
+  }
+  50% {
+    text-shadow: 0 0 15px #00c8ff, 0 0 30px #09caff;
+  }
+  100% {
+    text-shadow: 0 0 5px #ffd700, 0 0 10px #ffa500;
+  }
+}
