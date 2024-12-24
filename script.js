@@ -85,7 +85,7 @@ const wishMessage = document.getElementById("wish-message");
 
 // Lời chúc
 const message =
-  "❄️ Cuối cùng, mùa Giáng sinh năm nay cũng đã về ❄️ Đây là lần đầu tiên, nhưng không biết có phải là lần cuối cùng hay không ❄️ Biết là em sẽ không thích, nhưng mà kệ hì 🥹 (Trước khi gửi cho em, anh cũng có hỏi Anh Thư trước là nên hay không ? Và Thư hỏi anh là anh tặng Nhi với tư cách gì ? Nyc, anh em bình thường, người thích Nhi và còn bonus thêm quả nữa là làm gì tốt cho anh trước đi. Thật sự thì hiện tại anh muốn tặng em với tư cách là người thích em, sợ mỗi tình huống em trả quà thôi.... Anh tính nhờ Huy giấu luôn nhưng mà nhiều bí mật thì càng khó chịu nên anh quyết định sẽ bày tỏ ở đây. Hiện tại anh không có ý định tán lại hay gì với em đâu, vì anh vẫn còn hoài nghi về bản thân là làm em chán và hiện tại cũng có người đang theo đuổi em nữa, anh biết mỗi A8 thôi hì. Anh không muốn tạo áp lực gì cho em đâu, chỉ là anh muốn bản thân có cơ hội để quen em nếu còn cơ hội trong tương lai thôi, ngày mà cả 2 trưởng thành hơn và có thể tự quyết định mọi việc. Và anh muốn nghĩ đến bản thân mình nhiều hơn trong 2 năm tới. Giống như Trung Kiên, anh muốn được giống như vậy, khi phụ huynh biết đang quen thì mừng rỡ chứ không phải là quát mắng, cãi nhau. Anh đã đọc lại đoạn tin nhắn giữa anh và em hôm đó rất nhiều lần, càng đọc anh càng ngẫm và hiện tại anh đã không thấy nhói nữa. Không phải vì không yêu em nữa mà anh biết là hiện tại chưa phải là thời điểm thích hợp cho việc đó. Anh không coi đây là áp lực, anh coi đây là động lực để anh cố gắng mỗi ngày. Em có hỏi anh tết khom về hả? Anh không phải quên trả lời đâu mà vì về hay không về khác gì đâu hì. Thật ra thì Tết anh phải về Nghệ An rồi. Mong là mỗi dịp lễ em sẽ rep tin nhắn anh nhiệt tình nhé. Hic nãy giờ sến quá nên giờ chúc đàng hoàng nè!!!) Luôn giữ gìn sức khỏe, đừng để bệnh làm phiền em, đặc biệt là trong những dịp quan trọng như thế này ❄️ Mong em luôn khỏe mạnh và đừng quên rằng qua ngày lễ và Tết dương này, sẽ có những bài kiểm tra chờ đợi em phía trước 🥹 Thi tốt nhé 🥹 Anh chúc em một Giáng sinh an lành, tràn ngập niềm vui và hạnh phúc ❄️ Hy vọng mùa đông này tuy lạnh nhưng sẽ mang đến cho em những khoảnh khắc ngọt ngào, ấm áp. 🎄🎅✨❄️🎁";
+  "🎄🎅✨❄️🎁 Cuối cùng, mùa Giáng sinh năm nay cũng đã đến rồi ❄️ Đây là lần đầu tiên, nhưng không biết có phải là lần cuối cùng hay không ❄️ Biết là em sẽ không thích và ngại vô cùng tận, nhưng mà kệ hì 🥹 (Trước khi gửi cho em, anh cũng có hỏi Anh Thư trước là nên hay không ? Và Thư hỏi anh là anh tặng Nhi với tư cách gì ? Nyc, anh em bình thường, người thích Nhi và còn bonus thêm quả nữa là làm gì tốt cho anh trước đi. Thật sự thì hiện tại anh muốn tặng em với tư cách là người thích em, với lại là nỗ lực của anh nên mong em sẽ nhận hì... Anh tính nhờ Huy giấu luôn nhưng mà nhiều bí mật thì càng khó chịu nên anh quyết định sẽ bày tỏ ở đây. Hiện tại anh không có ý định tán hay gì đâu, chỉ là anh muốn tặng quà giáng sinh cho người anh coi là đặc biệt thôi hi. Sau hôm đó anh đã đọc lại tin nhắn rất nhiều, và giờ anh không cảm thấy nhói lòng nữa vì anh thấy hiện tại vẫn chưa phải lúc, với lại hạnh phúc là của em mà hì, bây giờ anh cần dành nhiều thời gian hơn cho bản thân hi và mong rằng tương lai anh vẫn còn cơ hội hì. Cũng hơn 3 tháng rồi, không biết tại sao nhưng mà anh thích sự vô tư của em nên anh xin lỗi vì giờ còn thích em (nghe phiền vô cùng tận hì). Thực ra thì anh cũng cảm thấy bản thân đã làm em chán bên cạnh lý do phụ huynh và hiện tại cũng có người theo đuổi em nữa nên… Mong là những dịp lễ đặc biệt, nếu rảnh, em sẽ rep tin nhắn anh nhiệt tình nhé 🥹 Sến đến đây thui, nãy giờ sến quá nên giờ chúc đàng hoàng nè!!!) Là một super hero, đừng để bệnh làm phiền em, đặc biệt là trong những dịp quan trọng như thế này ❄️ Đừng quên rằng qua ngày lễ và Tết dương này, sẽ có những bài kiểm tra chờ đợi em phía trước 🥹 Thi tốt nhé, cũng đừng cố thức khuya quá, chăm chỉ hơn nhé 🥹 Hôm nay là đêm Giáng sinh đầu tiên mà anh gửi lời chúc đến em. Anh chúc em một Giáng sinh an lành, tràn ngập niềm vui và hạnh phúc ❄️ Hy vọng mùa đông này tuy lạnh nhưng sẽ mang đến cho em những khoảnh khắc ngọt ngào, ấm áp. Merry Christmas and see you again🎄🎅✨❄️🎁";
 
 // Hàm chạy lời chúc và phát nhạc
 function playWish() {
@@ -128,3 +128,37 @@ treeImage.addEventListener("click", () => {
 closeModal.addEventListener("click", () => {
   modal.style.display = "none";
 });
+// Tạo con trỏ chính
+const cursor = document.createElement("div");
+cursor.classList.add("cursor");
+document.body.appendChild(cursor);
+
+// Theo dõi vị trí chuột
+window.addEventListener("mousemove", (e) => {
+  cursor.style.top = `${e.clientY}px`;
+  cursor.style.left = `${e.clientX}px`;
+});
+
+// Hiệu ứng click
+window.addEventListener("mousedown", () => {
+  cursor.classList.add("click");
+  setTimeout(() => cursor.classList.remove("click"), 300); // Gỡ hiệu ứng sau 300ms
+});
+
+// Hiệu ứng hover
+const interactiveElements = document.querySelectorAll("button, img, a");
+interactiveElements.forEach((element) => {
+  element.addEventListener("mouseover", () => {
+    cursor.classList.add("hover");
+  });
+
+  element.addEventListener("mouseout", () => {
+    cursor.classList.remove("hover");
+  });
+});
+
+// Thêm hiệu ứng lấp lánh
+setInterval(() => {
+  cursor.classList.add("sparkle");
+  setTimeout(() => cursor.classList.remove("sparkle"), 1000); // Lặp lại ánh sáng
+}, 3000);

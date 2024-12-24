@@ -281,3 +281,74 @@ canvas {
   pointer-events: none;
   background: transparent;
 }
+/* Con trỏ chính */
+.cursor {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 15px;
+  height: 15px;
+  background: radial-gradient(circle, #ffffff, rgba(255, 255, 255, 0.6));
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 9999;
+  transition: transform 0.2s ease-out, background-color 0.2s ease;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.8),
+    0 0 20px rgba(255, 255, 255, 0.5);
+}
+
+/* Hiệu ứng click */
+.cursor.click {
+  transform: scale(2); /* Lớn hơn khi click */
+  background: radial-gradient(circle, #ff0000, rgba(255, 0, 0, 0.5)); /* Đỏ */
+  box-shadow: 0 0 20px rgba(255, 0, 0, 0.8), 0 0 30px rgba(255, 0, 0, 0.6);
+}
+
+/* Hiệu ứng hover */
+.cursor.hover {
+  transform: scale(1.8); /* Lớn hơn khi hover */
+  background: radial-gradient(
+    circle,
+    #00ff00,
+    rgba(0, 255, 0, 0.5)
+  ); /* Xanh lá */
+  box-shadow: 0 0 15px rgba(0, 255, 0, 0.8), 0 0 25px rgba(0, 255, 0, 0.6);
+}
+
+/* Hiệu ứng ánh sáng lấp lánh */
+.cursor.sparkle {
+  animation: sparkle 1.5s infinite;
+}
+
+@keyframes sparkle {
+  0%,
+  100% {
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.8),
+      0 0 20px rgba(255, 255, 255, 0.6);
+  }
+  50% {
+    box-shadow: 0 0 15px rgba(255, 255, 255, 1),
+      0 0 30px rgba(255, 255, 255, 0.9);
+  }
+}
+.snowflake {
+  position: fixed;
+  width: 15px;
+  height: 15px;
+  background: url("snowflake.png") no-repeat center center;
+  background-size: contain;
+  pointer-events: none;
+  animation: fall 2s linear forwards;
+  z-index: 9999;
+}
+
+@keyframes fall {
+  0% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(100vh);
+  }
+}
