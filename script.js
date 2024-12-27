@@ -85,7 +85,7 @@ const wishMessage = document.getElementById("wish-message");
 
 // Lời chúc
 const message =
-  "Nếu em mở lại web này thì em sẽ thấy. Không biết em phải cố tình không nhưng mà hiện tại chắc anh không nên nói chuyện với em. Biết là không nên tặng ạ nhưng mà cũng đã làm rồi. Anh đã gom hết những dịp có thể tặng vào 1 lần rồi. Vì anh biết đằng nào em cũng sẽ nói thế. Và anh nghĩ nếu anh không tìm đến em trước thì em cũng không tìm đến anh đâu hì. Sống tốt nhé. Cảm ơn lời chúc từ em.";
+  "Nếu em mở lại web này thì em sẽ thấy. Không biết em phải cố tình không nhưng mà hiện tại chắc anh không nên nói chuyện với em. Biết là không nên tặng ạ nhưng mà cũng đã làm rồi. Anh đã gom hết những dịp có thể tặng vào 1 lần rồi. Vì anh biết đằng nào em cũng sẽ nói thế. Và anh nghĩ nếu anh không tìm đến em trước thì em cũng không tìm đến anh đâu hì. Nên anh sẽ chủ động ngừng liên lạc. Sống tốt nhé. Cảm ơn lời chúc từ em.";
 
 // Hàm chạy lời chúc và phát nhạc
 function playWish() {
